@@ -799,3 +799,42 @@ h1, h2, h3, h4, h5, h6 {
     background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.05) 1px, transparent 0);
     background-size: 20px 20px;
 }
+
+/* ============================================
+   CUSTOM EFFECTS STYLES
+   ============================================ */
+.typed-cursor {
+    color: var(--accent-light);
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+/* 3D effect for Vanilla Tilt cards */
+.stat-item {
+    transform-style: preserve-3d;
+}
+
+.stat-item .stat-number {
+    transform: translateZ(30px);
+}
+
+.stat-item .stat-label {
+    transform: translateZ(20px);
+}
+
+.service-card {
+    transform-style: preserve-3d;
+}
+
+.service-card .service-icon {
+    transform: translateZ(40px);
+}
+
+.service-card .service-title {
+    transform: translateZ(30px);
+}
+
+.service-card .service-description,
+.service-card .service-list {
+    transform: translateZ(20px);
+}
